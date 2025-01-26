@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBnb</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Certifique-se de que o script é carregado -->
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="logo">MyBnb</div>
+        <nav class="nav">
+            <a href="#">Explore</a>
+            <a href="#">Torne-se um Anfitrião</a>
+            <a href="#">Ajuda</a>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="hero">
+        <h1>Encontre Sua Próxima Estadia</h1>
+        <p>Reserve casas e experiências únicas ao redor do mundo.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Para onde você vai?">
+            <input type="date" placeholder="Check-in">
+            <input type="date" placeholder="Check-out">1
+            <button>Buscar</button>
+        </div>
+    </section>
+
+    <section class="grid-container">
+        <!-- Primeiro Card -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 1">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #1</h2>
+                <p>Localização: Centro da Cidade</p>
+                <p>Preço: R$ 120/noite</p>
+            </div>
+        </div>
+
+        <!-- Segundo Card -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/pexels-fotoaibe-1643389.jpg" class="house-image" alt="House 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/pexels-pixabay-259637.jpg" class="house-image" alt="Interior 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="Garden 2">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #2</h2>
+                <p>Localização: Subúrbio</p>
+                <p>Preço: R$ 90/noite</p>
+            </div>
+        </div>
+
+        <!-- Terceiro Card -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/pexels-fotoaibe-1643389.jpg" class="house-image" alt="House 3">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa6.jpg" class="house-image" alt="Interior 3">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa4.jpg" class="house-image" alt="Garden 3">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #3</h2>
+                <p>Localização: Frente à Praia</p>
+                <p>Preço: R$ 150/noite</p>
+            </div>
+        </div>
+
+        <!-- Quarto Card -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 4">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 4">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 4">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+
+         <!-- Quarto Card -->
+         <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 5">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 5">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 5">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 6 ">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 6">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 6">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 7">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 7">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 7">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+
+        <!-- AGORA VOU COLOCAR MAIS -->
+
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 8 ">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 8">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 8">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="property-card">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/casa1.jpg" class="house-image" alt="House 9">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa2.jpg" class="house-image" alt="Interior 9">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/casa3.jpg" class="house-image" alt="Garden 9">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+            </div>
+            <div class="property-info">
+                <h2>Apartamento Aconchegante #4</h2>
+                <p>Localização: Campo</p>
+                <p>Preço: R$ 80/noite</p>
+            </div>
+        </div>
+<!--  -->
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 10">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 10">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 10">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 11">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 11">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 11">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 10)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 10)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+<!--  -->
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 12">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 12">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 12">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+<!--  -->
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 13">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 13">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 13">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 14">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 14">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 14">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+<div class="property-card">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/casa1.jpg" class="house-image" alt="House 15">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa2.jpg" class="house-image" alt="Interior 15">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/casa3.jpg" class="house-image" alt="Garden 15">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+    </div>
+    <div class="property-info">
+        <h2>Apartamento Aconchegante #4</h2>
+        <p>Localização: Campo</p>
+        <p>Preço: R$ 80/noite</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
